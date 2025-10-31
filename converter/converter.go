@@ -5,5 +5,5 @@ import (
 )
 
 func MyLittleTest() {
-	fmt.Println("Hello from converter!")
+	fmt.Println("Should do temperature conversions here")
 }
