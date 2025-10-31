@@ -1,0 +1,7 @@
+- Both, a library (that could be imported and used by other Go programs) and a standalone program (that could be compiled into an executable and used this way)
+- Formula: f = c*9/5 + 32 (c = (f - 32)*5/9)
+- User interface: <program name> 22 Celsius x Fahrenheit (I know the Celsius value and I am looking for the Fahrenheit value.)
+- User interface: <program name> <number (floating point)> <units (string)> x <units (string)>
+
+- Could add support for other conversions. For example: <program name> 101 Pounds x Kilograms
+- Later, if we wish, we could add more flexibility. For example: <program name> 22 Celsius (converts to Fahrenheit by default). Or: <program name> 22 C (C is a shorthand for Celsius). Maybe the order of arguments shouldn't matter: <program name> x kg 101 pounds?
